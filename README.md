@@ -1,1 +1,1 @@
-# Tech feah IIT BOMBAY
+# Tech fest IIT BOMBAY
