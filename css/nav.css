@@ -362,6 +362,10 @@
 	  nav ul li {
 		list-style: none;
 	  }
+	  nav ul, ol {
+		margin-top: 0.8%;
+		margin-bottom: 10px;
+	  }
 	  
 	  nav ul li a {
 		display: block;
