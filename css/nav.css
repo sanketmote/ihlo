@@ -1,3 +1,7 @@
+.menu {
+	z-index: 20;
+}
+
 /* MOBILE RESPONSIVE */
 
 @media (max-width: 1024px){
