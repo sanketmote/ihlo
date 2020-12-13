@@ -1,3 +1,6 @@
+.menu {
+	z-index: 20;
+}
 /* MOBILE RESPONSIVE */
 
 @media (max-width: 1024px){
@@ -17,7 +20,7 @@
 		min-height: 48px;
 		max-width: 100%;
 		margin: 0 auto;
-		z-index: 9;
+		z-index: 20;
 	}
 	
 	.menu .main-menu {
