@@ -1,0 +1,224 @@
+@keyframes rhythm {
+	0% {
+	  transform: translateY(0);
+	}
+	26.6666666667% {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+	33.3333333333% {
+	  transform: translateY(-100%);
+	  opacity: 0;
+	}
+	33.3343333333% {
+	  transform: translateY(100%);
+	  opacity: 0;
+	}
+	33.3363333333% {
+	  transform: translateY(100%);
+	  opacity: 1;
+	}
+	93.3333333333% {
+	  transform: translateY(100%);
+	}
+	100% {
+	  transform: translateY(0);
+	}
+  }
+  @keyframes city {
+	0% {
+	  transform: translateY(0);
+	}
+	26.6666666667% {
+	  transform: translateY(0);
+	}
+	33.3333333333% {
+	  transform: translateY(-100%);
+	}
+	60% {
+	  transform: translateY(-100%);
+	  opacity: 1;
+	}
+	66.6666666667% {
+	  transform: translateY(-200%);
+	  opacity: 0;
+	}
+	66.6676666667% {
+	  transform: translateY(0);
+	}
+	66.6696666667% {
+	  transform: translateY(0);
+	  opacity: 1;
+	}
+	100% {
+	  transform: translateY(0);
+	}
+  }
+  @keyframes voice {
+	0% {
+	  transform: translateY(-300%);
+	}
+	0.0001% {
+	  transform: translateY(0);
+	}
+	26.6666666667% {
+	  transform: translateY(0);
+	}
+	33.3333333333% {
+	  transform: translateY(-100%);
+	}
+	60% {
+	  transform: translateY(-100%);
+	}
+	66.6666666667% {
+	  transform: translateY(-200%);
+	}
+	93.3333333333% {
+	  transform: translateY(-200%);
+	  opacity: 1;
+	}
+	100% {
+	  transform: translateY(-300%);
+	  opacity: 0;
+	}
+  }
+  .container {
+	/* min-height: 100vh; */
+	/* display: flex; */
+	justify-content: center;
+	/* flex-direction: column; */
+  }
+  .word {
+	display: flex;
+	grid-column: 2;
+	grid-row: auto;
+	align-items: center;
+    justify-content: center;
+    font-family: serif;
+  }
+  .word span {
+	display: inline-block;
+  }
+  .rhythm span:nth-child(1) {
+	animation: rhythm 6s ease-in-out both 0.05s infinite;
+  }
+  .city span:nth-child(1) {
+	animation: city 6s ease-in-out both 0.05s infinite;
+  }
+  .voice span:nth-child(1) {
+	animation: voice 6s ease-in-out both 0.05s infinite;
+  }
+  .rhythm span:nth-child(2) {
+	animation: rhythm 6s ease-in-out both 0.1s infinite;
+  }
+  .city span:nth-child(2) {
+	animation: city 6s ease-in-out both 0.1s infinite;
+  }
+  .voice span:nth-child(2) {
+	animation: voice 6s ease-in-out both 0.1s infinite;
+  }
+  .rhythm span:nth-child(3) {
+	animation: rhythm 6s ease-in-out both 0.15s infinite;
+  }
+  .city span:nth-child(3) {
+	animation: city 6s ease-in-out both 0.15s infinite;
+  }
+  .voice span:nth-child(3) {
+	animation: voice 6s ease-in-out both 0.15s infinite;
+  }
+  .rhythm span:nth-child(4) {
+	animation: rhythm 6s ease-in-out both 0.2s infinite;
+  }
+  .city span:nth-child(4) {
+	animation: city 6s ease-in-out both 0.2s infinite;
+  }
+  .voice span:nth-child(4) {
+	animation: voice 6s ease-in-out both 0.2s infinite;
+  }
+  .rhythm span:nth-child(5) {
+	animation: rhythm 6s ease-in-out both 0.25s infinite;
+  }
+  .city span:nth-child(5) {
+	animation: city 6s ease-in-out both 0.25s infinite;
+  }
+  .voice span:nth-child(5) {
+	animation: voice 6s ease-in-out both 0.25s infinite;
+  }
+  .rhythm span:nth-child(6) {
+	animation: rhythm 6s ease-in-out both 0.3s infinite;
+  }
+  .city span:nth-child(6) {
+	animation: city 6s ease-in-out both 0.3s infinite;
+  }
+  .voice span:nth-child(6) {
+	animation: voice 6s ease-in-out both 0.3s infinite;
+  }
+  .rhythm span:nth-child(7) {
+	animation: rhythm 6s ease-in-out both 0.35s infinite;
+  }
+  .city span:nth-child(7) {
+	animation: city 6s ease-in-out both 0.35s infinite;
+  }
+  .voice span:nth-child(7) {
+	animation: voice 6s ease-in-out both 0.35s infinite;
+  }
+  .rhythm span:nth-child(8) {
+	animation: rhythm 6s ease-in-out both 0.4s infinite;
+  }
+  .city span:nth-child(8) {
+	animation: city 6s ease-in-out both 0.4s infinite;
+  }
+  .voice span:nth-child(8) {
+	animation: voice 6s ease-in-out both 0.4s infinite;
+  }
+  .rhythm span:nth-child(9) {
+	animation: rhythm 6s ease-in-out both 0.45s infinite;
+  }
+  .city span:nth-child(9) {
+	animation: city 6s ease-in-out both 0.45s infinite;
+  }
+  .voice span:nth-child(9) {
+	animation: voice 6s ease-in-out both 0.45s infinite;
+  }
+  .title {
+	display: inline-block;
+    color: #808080;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 4vw;
+    /* line-height: 4vw; */
+	width: 30%;
+	padding-top: 10px;
+  }
+  /* For styling the demo. Not required. */
+  body {
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+  }
+  .container {
+	background-color: #2c292f;;
+	/* padding: 60px; */
+	text-align: center;
+  }
+  .title {
+	/* color: #e84c9c;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 4vw;
+	line-height: 4vw; */
+	grid-template-rows: auto;
+    overflow: hidden;
+    max-height: 6vw;
+    font-family: serif;
+  }
+  .pre-title {
+	display: inline-block;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 4vw;
+    padding-left: 10px;
+    font-family: serif;
+    padding-right: 10px;
+  }
+  

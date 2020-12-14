@@ -395,9 +395,10 @@
 	  nav ul li a:hover,
 	  nav ul li a.active,
 	  nav ul li a:focus {
-		box-shadow: 0 1em 1em -0.5em;
+		/* box-shadow: 0 0.5em 0.5em -0.5em; */
 		transform: translateY(-0.25em);
-		color:  #ff0000;
+		color:  #00ff0d;
+		text-decoration: none;
 		/* line-height: 30px; */
 		/* background-color: red; */
 		
