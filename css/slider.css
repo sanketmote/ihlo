@@ -119,6 +119,17 @@ body {
     text-transform: uppercase;
 
 }
+
+.slide-btn {
+    color : white;
+    text-decoration-line: none;
+    cursor: pointer;
+  }
+  
+.slide-btn:hover {
+    color : black;
+  }
+
 @media (max-width: 480px){
     .slide-title{
         /* font-size: 16px; */
