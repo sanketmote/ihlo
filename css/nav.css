@@ -1,8 +1,6 @@
 .menu {
 	z-index: 20;
 }
-<<<<<<< HEAD
-=======
 
 .logo-name {
 	position: absolute;
@@ -12,7 +10,6 @@
     text-transform: uppercase;
     font-family: sans-serif;
 }
->>>>>>> version1.0
 /* MOBILE RESPONSIVE */
 
 @media (max-width: 1024px){
