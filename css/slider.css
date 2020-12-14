@@ -83,7 +83,7 @@ body {
     text-align: center;
     z-index: 5;
     width: 100%;
-    padding-top: 34%;
+    top: 34vw;
 
     
 }
@@ -127,7 +127,7 @@ body {
   }
   
 .slide-btn:hover {
-    color : black;
+    color : #c0c0c0;
   }
 
 @media (max-width: 480px){
