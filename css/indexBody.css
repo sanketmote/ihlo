@@ -277,4 +277,12 @@ h2{
     transition-property: transform;
 }
 
+.pricing-text {
+    font-size: 3rem;
+}
 
+
+#pricing {
+    text-align: center;
+    padding: 7%;
+}
