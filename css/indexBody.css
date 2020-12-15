@@ -208,7 +208,7 @@ h2{
 	font-family: 'Montserrat', sans-serif;
   }
   .container {
-	background-color: #2c292f;;
+	background-color: #6AB155;
 	/* padding: 60px; */
 	text-align: center;
   }
@@ -243,8 +243,8 @@ h2{
 
 .vismis {
 	padding: 3% 5%;
-	color:rgba(233, 229, 229, 0.521);
-	background-color: #59565D;
+	color:black;
+	background-color : white;
 }
 
 .img-vismis{
@@ -255,15 +255,34 @@ h2{
 
 
 .whatWeDo{
-	background-color: #8B888F;
+	background-color: #85CC6F;
 	color:white;
 	padding: 3% 5%;
 }
 
 
-.WWOleft{
-	padding-left: 8% ;
+.hvr-float-shadow :hover{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    position: relative;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
 }
-.WWOright{
 
+.pricing-text {
+    font-size: 3rem;
+}
+
+
+#pricing {
+    text-align: center;
+    padding: 7%;
 }
