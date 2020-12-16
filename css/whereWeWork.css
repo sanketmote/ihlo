@@ -54,6 +54,15 @@ h1{
 }
 
 
+.other-off-tit{
+    padding: 2% 0 ;
+    font-family: 'Rubik', sans-serif;;
+}
+
+
+.office{
+    padding: 2.5% 5%;
+}
 @media(max-width : 990px ){
     .pic-subtext{
         padding-top: 15%;
