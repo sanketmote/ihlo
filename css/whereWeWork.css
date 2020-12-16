@@ -1,0 +1,104 @@
+h1{
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    width: 100%;
+}
+
+
+
+
+
+.fling-minislide {width:100%; height:1000px; overflow:hidden; position:relative; }
+.fling-minislide img{ position:absolute; animation:fling-minislide 20s infinite; opacity:1; width: 100%; height: 1000px;}
+
+.fling-minislide {width:100%; height:0px; padding-bottom: 20%; overflow:hidden; position:relative; }
+
+
+.anmdown {
+    animation-name: bounceInDown;
+    animation-duration: 950ms;
+    animation-fill-mode: forwards;
+}
+
+
+.anmup {
+    animation-name: bounceIn;
+    animation-duration: 950ms;
+    animation-fill-mode: forwards;
+}
+
+.pic-text{
+    font-family: 'Rubik', sans-serif;
+    font-size: 300%;
+    color: rgb(53, 50, 50);
+    width: 100%;
+    text-align: center;
+}
+.pic-subtext{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(53, 50, 50);
+    width: 100%;
+    padding-top: 8%;
+    text-align: center;
+}
+
+.pic-subtext-bottom1{
+    padding-top: 19%;
+}
+
+.pic-subtext-bottom{
+    font-family: 'Rubik', sans-serif;
+    color: rgb(19, 18, 18);
+    width: 100%;
+    text-align: center;
+}
+
+
+@media(max-width : 990px ){
+    .pic-subtext{
+        padding-top: 15%;
+    }
+    .pic-subtext-bottom1{
+        padding-top:30% ;
+    }
+}
+
+@media(max-width : 775px ){
+    .pic-subtext{
+        padding-top: 13%;
+    }
+    .pic-subtext-bottom1{
+        padding-top:30% ;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.mobile{
+    display: none;
+}
+
+@media screen and (max-width: 845px) {    
+     .mobile{
+    display: unset;
+} }
+
+@media screen and (max-width: 845px) {     
+    .max-screen{
+    display: none;
+} }
