@@ -606,17 +606,6 @@ h5.blog-title a:hover {
     color: #fff;
 }
 
-/* copyright */
-p.copy-right-grids {
-    font-size: 15px;
-    letter-spacing: 2px;
-}
-
-p.copy-right-grids a:hover {
-    color: #000;
-}
-
-/* //copyright */
 /* social-icons */
 .w3social-icons ul li {
     display: inline-block;
@@ -794,61 +783,6 @@ h2.text-bg-click a {
 
 /* //popup */
 /* //gallery */
-
-/* contact */
-/* contact form */
-.main_grid_contact {
-    box-shadow: 0px 0px 15.69px 3.31px rgba(204, 204, 223, 0.44);
-}
-
-.main_grid_contact input[type="text"],
-.main_grid_contact input[type="email"],
-.main_grid_contact textarea,
-.n-right-w3ls input[type="email"],
-.n-right-w3ls input[type="text"] {
-    outline: none;
-    padding: 11px 12px;
-    font-size: 14px;
-    color: #000;
-    width: 100%;
-    letter-spacing: 1px;
-    background: transparent;
-    border: 1px solid #b1b1b1;
-}
-
-.main_grid_contact textarea {
-    min-height: 10em;
-    resize: none;
-}
-
-.main_grid_contact .input-group1 button {
-    outline: none;
-    padding: 13px 10px;
-    font-size: 14px;
-    width: 36%;
-    margin-top: 2em;
-    color: #fff;
-    background: #6c5ce7;
-    border: none;
-    letter-spacing: 1px;
-    cursor: pointer;
-}
-
-/* //contact form */
-/* map */
-.map {
-    padding: 0;
-}
-
-.map iframe {
-    border: none;
-    width: 100%;
-    height: 100%;
-}
-
-/* //map */
-/* //contact */
-
 /* responsive */
 @media(max-width: 1440px) {
     .banner-info_w3ls h3 {
@@ -1219,4 +1153,11 @@ h2.text-bg-click a {
 
 .button-default:hover {
     background-color: #94c13dd9;
+}
+
+
+/* adjstment */
+
+.resimg {
+    height: 240.375px;;
 }
