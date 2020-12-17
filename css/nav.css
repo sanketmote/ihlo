@@ -13,9 +13,6 @@
 /* MOBILE RESPONSIVE */
 
 @media (max-width: 1024px){
-	section {
-		height: 200vh;
-	}
 	
 	ul {
 		list-style: none;
