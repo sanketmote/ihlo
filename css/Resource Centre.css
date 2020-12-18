@@ -19,15 +19,15 @@
 
 
 .slide-title {
-    color: rgb(53, 50, 50);
-    font-size: 4vw;
+    color: white;
+    font-size: 3vw;
     font-weight: bold;
     text-transform: uppercase;
     width: 100%;
 
 }
 .slide-subtitle{
-    color: rgb(53, 50, 50);;
+    color: white;
     text-transform: uppercase;
     font-size: 2.4vw;
     width: 100%;
@@ -72,3 +72,7 @@
     font-size: 10px;
     text-align: right;
 }
+
+/* calender */
+
+
