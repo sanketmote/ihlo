@@ -1,0 +1,41 @@
+
+.slide-title {
+    color: #4F963C;
+    font-family: 'Rubik', sans-serif; 
+    font-size: 4vw;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 100%;
+
+}
+.slide-subtitle{
+    color: #4F963C;
+    text-transform: uppercase;
+    font-family: 'Rubik', sans-serif;
+    font-size: 2.4vw;
+    width: 100%;
+}
+
+.anmup{
+    animation-name: bounceIn;
+    animation-duration: 950ms;
+    animation-fill-mode: forwards;
+}
+.anmdown{
+    animation-name: bounceInDown;
+    animation-duration: 950ms;
+    animation-fill-mode: forwards;
+}
+
+/* Mid Part */
+
+.mid-img{
+    width: 100%;
+    height: 150px;
+}
+
+.mid-h1{
+    padding:5% 0 2.5% 0  ;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
