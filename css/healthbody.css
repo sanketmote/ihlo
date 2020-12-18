@@ -46,6 +46,7 @@
 
 .aboutHealth {
     padding-top: 3vw;
+    margin-bottom: 100px;
 }
 .healthGoal {
     width: 90%;
@@ -282,6 +283,13 @@
 
 /*########################## our team        ################  */
 
+.keyheadline {
+  font-size: 44px;
+  font-weight: 600;
+  width: 100%; 
+  text-align:center; 
+  padding-bottom:30px;
+}
 .image img{
   border-radius: 50%;
   width: 100px;
