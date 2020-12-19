@@ -5,7 +5,7 @@
 
 }
 .banner1 {
-    background: url(../images/courses/1.jpg) no-repeat center;
+    background: url(../images/fight/covid-19-1.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -14,7 +14,7 @@
 }
 
 .banner2 {
-    background: url(../images/courses/2.jpg) no-repeat center;
+    background: url(../images/fight/covid19food.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -23,7 +23,7 @@
 }
 
 .banner3 {
-    background: url(../images/courses/3.jpg) no-repeat center;
+    background: url(../images/fight/covid19.jpg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
