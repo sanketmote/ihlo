@@ -1,4 +1,36 @@
-.vismis {
-	display: inline-block;
-	width: 45%;
+
+.control-me , .control-me1 , .control-me2{
+    display:none;
+    padding-left: 5vw;
+    padding-top: 0.5vw;
 }
+
+.control-me::after,.control-me1::after,.control-me2::after {
+    display:none;
+    font-size: 100px;
+}
+#toggle:checked ~ .control-me,
+#toggle1:checked ~ .control-me,
+#toggle2:checked ~ .control-me {
+    display:flex;
+}
+#toggle:checked ~ .control-me::after,
+#toggle1:checked ~ .control-me::after ,
+#toggle2:checked ~ .control-me::after  {
+    display:flex;
+}
+
+label {
+    /* background: #A5D6A7; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    font-size: 4vw;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+
