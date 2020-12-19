@@ -1,4 +1,7 @@
-
+.control-me img ,
+.control-me1 img{
+	width: 100%;
+}
 .control-me , .control-me1 , .control-me2{
     display:none;
     padding-left: 5vw;
@@ -10,12 +13,27 @@
     font-size: 100px;
 }
 #toggle:checked ~ .control-me,
-#toggle1:checked ~ .control-me,
+#toggle1:checked ~ .control-me1,
 #toggle2:checked ~ .control-me {
     display:flex;
 }
+
+#toggle:checked ~ .control-me1 {
+	display: none;
+}
+
+#toggle:checked ~ .control-me {
+	display: flex;
+}
+#toggle1:checked ~ .control-me {
+	display: none;
+}
+
+#toggle1:checked ~ .control-me1 {
+	display: flex;
+}
 #toggle:checked ~ .control-me::after,
-#toggle1:checked ~ .control-me::after ,
+#toggle1:checked ~ .control-me1::after ,
 #toggle2:checked ~ .control-me::after  {
     display:flex;
 }

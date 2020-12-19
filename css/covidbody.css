@@ -251,3 +251,197 @@ div.programflip {
     opacity: 0.9;
   }
   
+
+
+
+  /* toggle  */
+
+  .control-me img ,
+.control-me1 img{
+	width: 100%;
+}
+
+.control-me {
+    display: flex;
+    padding-left: 5vw;
+    padding-top: 0.5vw;
+}
+.control-me1 , .control-me2,.control-me3,.control-me4{
+    display:none;
+    padding-left: 5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 20px;
+}
+
+.control-me::after,.control-me1::after,.control-me2::after ,.control-me3::after,.control-me4::after{
+    display:none;
+    /* font-size: 100px; */
+}
+#toggle:checked ~ .control-me,
+#toggle1:checked ~ .control-me1,
+#toggle2:checked ~ .control-me2,
+#toggle3:checked ~ .control-me3,
+#toggle4:checked ~ .control-me4 {
+    display:flex;
+}
+
+#toggle:checked ~ .control-me1 {
+	display: none;
+}
+
+#toggle1:checked ~ .control-me {
+	display: none;
+}
+
+#toggle1:checked ~ .control-me1 {
+	display: flex;
+}
+#toggle:checked ~ .control-me::after,
+#toggle1:checked ~ .control-me1::after ,
+#toggle2:checked ~ .control-me2::after,
+#toggle3:checked ~ .control-me3::after,
+#toggle4:checked ~ .control-me4::after  {
+    display:flex;
+}
+
+label {
+    /* background: #A5D6A7; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    font-size: 3vw;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
+
+/* HOW TO PROTECT ANIMATION  */
+/* 
+body{
+    overflow: auto;
+    background: linear-gradient(to bottom, #e2e2e2, #ffffff);
+    font-family:Tahoma;
+    font-size:15px;
+  } */
+  
+  /* Headers Style */
+.howtopro h1{
+    text-align:center;
+    font-size:5em;
+    color:#fff;
+    text-shadow: 0px 1px 2px #000;
+  }
+  
+  .howtopro h2{
+    text-align:left;
+    font-size:3em;
+    color:#007E30;
+    margin-left:120px;
+    margin-bottom:-5px;
+    
+  }
+  
+  .howtopro  h3{
+    text-align:left;
+    font-size:2em;
+    color:#fff;
+    background:#007E30;
+    padding-left:120px;
+    
+  }
+  
+  /* Image top of the menu */
+  .howtopro .TopImage{
+    position:relative;
+    left:110px;
+    z-index:2;
+    width:300px;
+    margin-bottom:-2px;
+  }
+  
+  /* Text boxes style */
+  .howtopro  .messagebox{
+    width:80%;
+    height:200px;
+    background-color:white;
+    position:relative;
+    left:120px;
+    line-height: 1.5em;
+    padding:25px;
+    margin-bottom: 50px;
+    border-left:5px solid #007E30;
+  }
+  
+  /* Text boxes style in hover */
+.howtopro .messagebox:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
+  
+  /* Default shadow style */
+  .howtopro  .shadow{
+      box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  
+  /* CoronaVirus Animation
+  Default speed is: 10s
+  MoveUpDown is a keyFrames that define the position*/
+  .howtopro .animatediv{
+    animation: MoveUpDown 10s linear infinite;
+    position: absolute;
+    right: 200px;
+    }
+  /* position of corona animation */
+  @keyframes MoveUpDown {
+    0%, 100% {
+      top: 20px;
+    }
+    50% {
+      top: 110px;
+    }
+  }
+  
+  /*Main Menu Style*/
+  .howtopro  ul.menu {
+          position:absolute;
+      left:120px;
+          background:#fff;
+          width:300px;
+      z-index:3;
+          margin:0px;
+          padding:0px;
+          list-style: none;
+          overflow:hidden;
+      }
+  
+      .howtopro .menu li a {
+          width:300px;
+          padding-left:15px;
+          height:40px;
+          line-height:40px;
+          display:block;
+          overflow:hidden;
+          position:relative;
+          text-decoration:none;
+          font-size:15px;
+          color:#686868;			
+      }
+  
+      .howtopro .menu li a:hover {
+          background:#efefef;
+      border-left:5px solid #007E30;
+      }
+
+  /*END OF ANIMATION */
+
+
+  /* testimoials  */
+
+  .testimoials {
+      width: 90%;
+      margin: auto;
+      margin-top: 30px;
+  }
