@@ -1,7 +1,6 @@
 
 .slide-title {
-    color: #4F963C;
-    font-family: 'Rubik', sans-serif; 
+    color: skyblue;
     font-size: 4vw;
     font-weight: bold;
     text-transform: uppercase;
@@ -9,9 +8,8 @@
 
 }
 .slide-subtitle{
-    color: #4F963C;
+    color: skyblue;
     text-transform: uppercase;
-    font-family: 'Rubik', sans-serif;
     font-size: 2.4vw;
     width: 100%;
 }
