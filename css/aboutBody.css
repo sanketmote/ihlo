@@ -87,6 +87,41 @@
     right: 0px;
 }
 
+@media only screen and (max-width:768px) {
+    .tagline h4 {
+        font-size: 3vw;
+        font-weight: 600;
+        text-transform: uppercase;
+        /* margin-top: 20px; */
+        margin-bottom: 10px;
+        position: relative;
+        display: block;
+        padding: 0 90px;
+        font-family: serif;
+    }
+
+    .tagline h4:after,
+    .tagline h4:before,
+    .tagline h4 span:before,
+    .tagline h4 span:after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tagline h4 {
+        font-size: 5vw;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        position: relative;
+        display: block;
+        padding: 0 0px;
+        font-family: serif;
+    }
+}
+
 .about_heading h1 {
     position: relative;
     color: #222;
@@ -96,8 +131,37 @@
     margin-bottom: 2vw;
 }
 
+/* vision and nission  */
+.inner-box label {
+    margin-bottom: 0px;
+}
+.fontvismis {
+    font-size:5vw; 
+    padding-bottom: 1vw;
+    padding-top: 10px;
+}
 
+.headvismis {
+    font-size:5vw; 
+    padding-bottom: 1vw;
+    padding-top: 10px;
+}
+@media only screen and (max-width: 768px) {
+    .mobilevismis {
+        margin: 30px 0px 0px 0px;
+    }
+    
+}
 
+@media only screen and (max-width:500px)
+{
+    .headvismis {
+        font-size: 8vw;
+        padding-bottom: 1vw;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+}
 /* MISSION HISTORY TEAM  */
 
 .wi-icon-block {
@@ -112,6 +176,12 @@
     padding: 0 0 0 1.5vw;
 
 }
+}
+
+.fonthis {
+    font-size:7vw; 
+    padding-bottom: 1vw;
+    padding-top: 10px;
 }
 
 /* toggle button  */
@@ -159,6 +229,13 @@ label {
     -webkit-box-shadow: 0px 0px 16px 1px #000000;
     box-shadow: 0px 0px 16px 1px #000000;
     margin-left: 3.5vw;
+    padding-top: 8px;
+}
+
+@media only screen and (max-width:768px) {
+    .shadow{
+        margin-left: 0px;
+    }
 }
 
 .shadow:hover{
@@ -184,8 +261,10 @@ label {
 
 }
 
-
-
+.text {
+    width: 90%;
+    text-align: center;
+}
 .services-block-one .inner-box {
 
 	padding: 15px 10px 15px;
