@@ -334,7 +334,7 @@
 }
 
 /* FOR PC ABOVE 1024 */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
 	.tm {
 		display: none;
 	}
@@ -403,3 +403,16 @@
 	  
 	
 }
+
+@media only screen and (max-width: 1160px) {
+	nav ul li a {
+		padding: 0 11px;
+	}
+}
+
+@media only screen and (max-width: 1082px) {
+	nav ul li a {
+		padding: 0 10px;
+	}
+}
+
