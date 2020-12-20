@@ -36,6 +36,9 @@ footer{
 .footerpart1 p {
 	justify-items: center;
 	text-align: justify;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font: normal 0.9rem serif;
 }
 
 .footerpart1 h4 {
@@ -53,10 +56,6 @@ footer{
 
 .footer-centre .stylelink li a {
 	color: black;
-}
-
--distributed .footer-left{
-	width: 30%;
 }
 
 .footer-distributed h3{
