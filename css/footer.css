@@ -16,7 +16,7 @@ footer{
 	box-sizing: border-box;
 	width: 100%;
 	text-align: left;
-	font: bold 16px serif;
+	/* font: bold 16px 'Rubik'; */
 	padding: 2% 0%;
 }
 
@@ -38,7 +38,7 @@ footer{
 	text-align: justify;
 	text-decoration: none;
 	font-size: 0.9rem;
-	font: normal 0.9rem serif;
+	/* font: normal 0.9rem 'Rubik'; */
 }
 
 .footerpart1 h4 {
@@ -60,7 +60,7 @@ footer{
 
 .footer-distributed h3{
 	color:  black;
-	font: normal 3rem 'serif';
+	font: normal 3rem 'Rubik';
 	margin: 0;
 }
 
@@ -116,4 +116,12 @@ footer{
 	.footerimg {
 		padding-bottom: 20px;
 	}
+}
+
+.footer-centre h2 {
+	font-family:'Rubik', sans-serif;
+}
+
+.contactinfo h2 {
+	font-family:'Rubik', sans-serif;
 }

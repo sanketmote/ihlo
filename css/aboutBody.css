@@ -122,7 +122,7 @@
     }
 }
 
-.about_heading h1 {
+.about_heading h1,h5 {
     position: relative;
     color: #222;
     font-size: 44px;
@@ -136,13 +136,14 @@
     margin-bottom: 0px;
 }
 .fontvismis {
-    font-size:5vw; 
+    font-size:3vw; 
     padding-bottom: 1vw;
     padding-top: 10px;
 }
 
-.headvismis {
-    font-size:5vw; 
+.headvismis h1{
+    font-family: 'Rubik', sans-serif;
+    font-size:3vw; 
     padding-bottom: 1vw;
     padding-top: 10px;
 }
@@ -156,7 +157,8 @@
 @media only screen and (max-width:500px)
 {
     .headvismis {
-        font-size: 8vw;
+        
+        text-align: center;
         padding-bottom: 1vw;
         padding-top: 10px;
         padding-left: 10px;
@@ -179,7 +181,7 @@
 }
 
 .fonthis {
-    font-size:7vw; 
+    font-size:5vw; 
     padding-bottom: 1vw;
     padding-top: 10px;
 }
@@ -207,14 +209,14 @@
     display:flex;
 }
 
-label {
-    /* background: #A5D6A7; */
+/* label {
+    background: #A5D6A7;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     cursor: pointer;
     font-size: 4vw;
-}
+} */
 
 .visually-hidden {
     position: absolute;
@@ -225,7 +227,7 @@ label {
 /* shadow  */
 
 .shadow{
-    background-color: #689038;
+    background-color: #A1E989;
     -webkit-box-shadow: 0px 0px 16px 1px #000000;
     box-shadow: 0px 0px 16px 1px #000000;
     margin-left: 3.5vw;
@@ -264,6 +266,7 @@ label {
 .text {
     width: 90%;
     text-align: center;
+    
 }
 .services-block-one .inner-box {
 
