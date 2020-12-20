@@ -128,7 +128,7 @@ a.move-top {
 
 /* banner */
 .banner1 {
-    background: url(../images/courses/1.jpg) no-repeat center;
+    background: url(../images/courses/1.jpeg) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -353,6 +353,27 @@ section.about-bottom {
     position: relative;
     top: 4px;
 }
+
+.reshide {
+    display: none;
+}
+
+@media only screen and (max-width : 992px) {
+    .reshide {
+        display: flex;
+    }
+
+    .single-item {
+        margin-top: 45px;
+    }
+}
+
+@media only screen and (max-width : 767px) {
+    .reshide {
+        display: none;
+    }
+}
+
 /* //Coureses  */
 /* professors */
 .teams {
