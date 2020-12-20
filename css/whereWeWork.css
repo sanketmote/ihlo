@@ -81,22 +81,9 @@ h1{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.office-text{
+    padding-top : 5%;
+}
 
 .mobile{
     display: none;
@@ -110,4 +97,16 @@ h1{
 @media screen and (max-width: 845px) {     
     .max-screen{
     display: none;
-} }
+} 
+}
+
+
+@media only screen and (max-width:392px) { 
+    .pic-subtext{
+        padding-top:30% ;
+    }
+    .officetext{
+        padding-left: 8% ;
+    }
+}
+
