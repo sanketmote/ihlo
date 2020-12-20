@@ -133,3 +133,69 @@ label {
         height: 300px;
     }
 }
+
+.centered {
+    top : 25vw;
+}
+
+@media only screen and (max-width:975px) {
+    .centered {
+        top : 13vw;
+    }
+}
+
+@media only screen and (max-width: 840px){
+    .centered {
+        top: 16vw;
+    }
+
+    .carousel .controls1 {
+        top: 27vw;
+    }
+    
+}
+
+
+@media only screen and (max-width:782px) {
+    .carousel {
+        height: 55vw;
+    }
+
+    .slide-title{
+        font-size: 1.7rem;
+    }
+
+    .slide-subtitle{
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .centered {
+        top: 23vw;
+    }
+
+    .carousel .controls1{
+        top: 41vw;
+    }
+
+    .slide-title{
+        font-size: 1.7rem;
+    }
+
+    .slide-subtitle{
+        font-size: 1.3rem;
+    }
+    
+}
+
+@media only screen and (max-width: 540px){
+    .centered {
+        top: 25vw;
+    }
+
+    .carousel .controls1{
+        top: 47vw;
+    }
+    
+}
