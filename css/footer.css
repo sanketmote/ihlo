@@ -43,7 +43,13 @@ footer{
 
 .footer-centre .stylelink li {
 	padding: 3% 0;
+	color: black;
 }
+
+.footer-centre .stylelink li a {
+	color: black;
+}
+
 -distributed .footer-left{
 	width: 30%;
 }
