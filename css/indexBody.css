@@ -286,3 +286,199 @@ h2{
     text-align: center;
     padding: 7%;
 }
+
+
+
+
+/* our reach  */
+
+
+.ourreach {
+    padding: 10px 0px 10px;
+  }
+  
+  @media (max-width: 576px) {
+    
+    .ourreach {
+      padding: 50px 0px 60px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    .ourreach {
+      padding: 50px 0px 60px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+ 
+    .ourreach {
+      padding: 50px 0px 60px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+ 
+    .ourreach {
+        padding: 10px 0px 10px;
+    }
+  }
+  
+
+  .ourreach .single_ourreach {
+    text-align: center;
+  }
+  
+  @media (max-width: 576px) {
+  
+    .ourreach .single_ourreach {
+      margin: 20px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+  
+    .ourreach .single_ourreach {
+      margin: 20px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+    .ourreach .single_ourreach {
+      margin: 20px 0px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  
+    .ourreach .single_ourreach {
+      margin: 20px 0px;
+    }
+  }
+
+  .ourreach .single_ourreach img {
+    width: 78px;
+    height: 58px;
+    display: block;
+    margin-bottom: 8px;
+    margin-left: -10px;
+  }
+  
+ 
+  .ourreach .single_ourreach span {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000;
+    font-style: "Poppins", sans-serif;
+  }
+  
+  @media (max-width: 576px) {
+   
+    .ourreach .single_ourreach span {
+      line-height: 67px;
+      font-size: 40px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+   
+    .ourreach .single_ourreach span {
+      line-height: 67px;
+      font-size: 40px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+   
+    .ourreach .single_ourreach span {
+      line-height: 67px;
+      font-size: 40px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+   
+    .ourreach .single_ourreach span {
+      line-height: 67px;
+      font-size: 40px;
+    }
+  }
+  
+
+  .ourreach .single_ourreach h4 {
+    color: #000000;
+    font-size: 24px;
+    font-size: 600;
+    margin-top: 28px;
+    text-transform: capitalize;
+    position: relative;
+  }
+  
+  .ourreach .single_ourreach h4:after {
+    position: absolute;
+    left: 0;
+    top: -20px;
+    right: 0;
+    margin: 0 auto;
+    width: 60px;
+    height: 1px;
+    background-color: #fff;
+    content: "";
+  }
+  
+  @media (max-width: 576px) {
+    
+    .ourreach .single_ourreach h4:after {
+      top: -10px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+    
+    .ourreach .single_ourreach h4:after {
+      top: -10px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    
+    .ourreach .single_ourreach h4:after {
+      top: -10px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    
+    .ourreach .single_ourreach h4:after {
+      top: -10px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+  
+    .ourreach .single_ourreach h4 {
+      margin-top: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px) {
+  
+    .ourreach .single_ourreach h4 {
+      margin-top: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+    .ourreach .single_ourreach h4 {
+      margin-top: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+  
+    .ourreach .single_ourreach h4 {
+      margin-top: 10px;
+    }
+  }
