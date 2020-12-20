@@ -91,7 +91,8 @@ ol {
 }
 
 .text-colors {
-    color: #6c5ce7;
+    color: black;
+    font-size: 19px;
 }
 
 .bg-colors {
