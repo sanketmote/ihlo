@@ -48,3 +48,7 @@ h5{
     .max-screen{
     display: none;
 } }
+
+.depatment .col-sm-6 {
+    margin-top: 25px;
+}

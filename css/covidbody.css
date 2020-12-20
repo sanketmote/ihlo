@@ -142,6 +142,22 @@
     width: 100%;
     height: 100%;
 }
+
+@media only screen and (max-width : 991px ) {
+  .casesers {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and  (max-width :649px){
+  .cases .hide {
+    display: none;
+  }
+  .cases .show .col-sm-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 /* program  */
 
 .galleryheading {
@@ -165,6 +181,15 @@
     height: 250px;
 }
 
+@media only screen and (max-width : 767px) {
+ .ihloprogram .col-sm-6 {
+   padding-top: 20px;
+ }
+
+ .helpsectionres {
+   padding-top: 25px;
+ }
+}
 
 div.programflip {
     overflow: hidden;

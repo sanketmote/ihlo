@@ -37,3 +37,80 @@
     font-family: 'Rubik', sans-serif;
     text-align: center;
 }
+
+@media only screen and (max-width:991px) {
+    .col2 {
+        margin-top: 25px;
+    }
+}
+
+/* testiminols  */
+
+.testimoials {
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.control-me img ,
+.control-me1 img{
+	width: 100%;
+}
+
+.control-me {
+    display: flex;
+    padding-left: 5vw;
+    padding-top: 0.5vw;
+}
+.control-me1 , .control-me2,.control-me3,.control-me4{
+    display:none;
+    padding-left: 5vw;
+    padding-top: 0.5vw;
+    padding-bottom: 20px;
+}
+
+.control-me::after,.control-me1::after,.control-me2::after ,.control-me3::after,.control-me4::after{
+    display:none;
+    /* font-size: 100px; */
+}
+#toggle:checked ~ .control-me,
+#toggle1:checked ~ .control-me1,
+#toggle2:checked ~ .control-me2,
+#toggle3:checked ~ .control-me3,
+#toggle4:checked ~ .control-me4 {
+    display:flex;
+}
+
+#toggle:checked ~ .control-me1 {
+	display: none;
+}
+
+#toggle1:checked ~ .control-me {
+	display: none;
+}
+
+#toggle1:checked ~ .control-me1 {
+	display: flex;
+}
+#toggle:checked ~ .control-me::after,
+#toggle1:checked ~ .control-me1::after ,
+#toggle2:checked ~ .control-me2::after,
+#toggle3:checked ~ .control-me3::after,
+#toggle4:checked ~ .control-me4::after  {
+    display:flex;
+}
+
+label {
+    /* background: #A5D6A7; */
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+    font-size: 2.5vw;
+}
+
+.visually-hidden {
+    position: absolute;
+    left: -100vw;
+}
