@@ -89,7 +89,7 @@
 
 @media only screen and (max-width:768px) {
     .tagline h4 {
-        font-size: 3vw;
+        font-size: 5vw;
         font-weight: 600;
         text-transform: uppercase;
         /* margin-top: 20px; */
@@ -227,7 +227,7 @@
 /* shadow  */
 
 .shadow{
-    background-color: #A1E989;
+    background-color: #85CC6F;
     -webkit-box-shadow: 0px 0px 16px 1px #000000;
     box-shadow: 0px 0px 16px 1px #000000;
     margin-left: 3.5vw;
