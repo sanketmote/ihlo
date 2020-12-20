@@ -101,12 +101,20 @@ h1{
 }
 
 
-@media only screen and (max-width:392px) { 
+@media only screen and (max-width:432px) { 
     .pic-subtext{
-        padding-top:30% ;
+        padding-top:30vw ;
     }
     .officetext{
         padding-left: 8% ;
     }
 }
 
+@media only screen and (max-width:315px) { 
+    .pic-subtext{
+        padding-top:37vw ;
+    }
+    .officetext{
+        padding-left: 8% ;
+    }
+}
