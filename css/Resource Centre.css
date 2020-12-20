@@ -73,6 +73,22 @@
     text-align: right;
 }
 
+
+@media only screen and (max-width:768px) { 
+  .newshead{
+    text-align: center;
+  }
+  .date{
+    padding-top:0;
+  }
+
+}
+
+
+
+
+
+
 /* calender */
 
 /* * {
