@@ -363,4 +363,10 @@
         }
     }
     
+@media (max-width:667){
+    .navigation {
+        top: 28vw;
+
+    }
+}
     /* //responsive */

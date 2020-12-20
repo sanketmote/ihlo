@@ -73,9 +73,9 @@ h1{
 }
 
 @media(max-width : 775px ){
-    .pic-subtext{
+    /* .pic-subtext{
         padding-top: 13%;
-    }
+    } */
     .pic-subtext-bottom1{
         padding-top:30% ;
     }
