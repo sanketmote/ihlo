@@ -1,6 +1,6 @@
 
 .slide-title {
-    color: skyblue;
+    color: white;
     font-size: 4vw;
     font-weight: bold;
     text-transform: uppercase;
@@ -8,7 +8,7 @@
 
 }
 .slide-subtitle{
-    color: skyblue;
+    color: white;
     text-transform: uppercase;
     font-size: 2.4vw;
     width: 100%;
@@ -51,6 +51,10 @@
     margin: auto;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.testimoials h1 {
+font-family: 'Rubik', sans-serif;
 }
 
 .control-me img ,
@@ -113,4 +117,10 @@ label {
 .visually-hidden {
     position: absolute;
     left: -100vw;
+}
+
+.mobile1 {
+
+    margin: 10px 0px;
+
 }
