@@ -160,14 +160,6 @@ label {
     .carousel {
         height: 55vw;
     }
-
-    .slide-title{
-        font-size: 1.7rem;
-    }
-
-    .slide-subtitle{
-        font-size: 1.3rem;
-    }
 }
 
 @media only screen and (max-width: 640px){
@@ -177,14 +169,6 @@ label {
 
     .carousel .controls1{
         top: 41vw;
-    }
-
-    .slide-title{
-        font-size: 1.7rem;
-    }
-
-    .slide-subtitle{
-        font-size: 1.3rem;
     }
     
 }
