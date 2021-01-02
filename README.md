@@ -4,7 +4,7 @@
 
 ## Team-id : SD-200294
 
-<h1>bout the Organization-</h1>
+<h1>About the Organization-</h1>
 <p>  We have designed a fictitious organization named IHLO (International Health and Learning
 organization) which mainly works in the field of healthcare and Learning.
 
